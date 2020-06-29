@@ -1,7 +1,11 @@
+html, body {
+    min-height: 100vh;
+	}
 body {
 	background-image: url(imgs/fundo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat; 
+	background-position: center-center;
 	overflow: hidden;
 	}
 
