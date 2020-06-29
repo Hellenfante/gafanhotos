@@ -1,0 +1,26 @@
+html, body {
+    min-height: 100vh;
+	}
+body {
+	background-image: url(imgs/fundo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: center;
+	overflow: hidden;
+	}
+
+img {
+    position: absolute;
+    }
+
+#novo {
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	background: green;
+	color: #fff;
+	}
