@@ -1,7 +1,7 @@
 class gafanhoto {
             constructor() {
                 this.x = 0;
-                this.y = 0;
+                this.y = -90;
                 this.baseY = Math.random() * 300;
                 this.velocidadeX = Math.random() * 2 + 2;
                 this.el = document.createElement('img');
@@ -15,7 +15,7 @@ class gafanhoto {
                 this.y = this.baseY + Math.cos(this.x / 30) * 10;
 
                 if (this.x >= window.innerWidth) {
-                    this.x = 0;
+                    this.x = -90;
                     this.baseY = Math.random() * 300;
                 }
 
